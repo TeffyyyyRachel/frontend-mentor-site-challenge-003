@@ -29,7 +29,6 @@ body{
     min-width: 320px;
     border-radius: 15px;
     font-family: var(--font);
-    z-index: 0;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.356);
 }
 
@@ -105,30 +104,9 @@ ul {
     letter-spacing: 2px;
 }
 
-.bgtop {
-    position: fixed;
-    bottom: 15rem;
-    right: 50%;
-    z-index: -1;
-}
-d
-.bgbottom{
-    position: fixed;
-    top: 25rem;
-    left: 30%;
-    width: 85rem;
-    z-index: -1;
-}
-
 
 @media (max-width: 400px) {
     .main, .main-backgroundphoto {
         width: 80vw;
-    }
-    .bgtop {
-        right: 40%;
-    }
-    .bgbottom{
-        left: 5%;
     }
 }
