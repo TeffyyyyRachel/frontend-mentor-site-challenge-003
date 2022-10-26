@@ -35,8 +35,7 @@ body{
 
 
 .main-backgroundphoto {
-    max-width: 400px;
-    min-width: 320px;
+    width: 100%;
     border-radius: 15px 15px 0 0;
 }
 
@@ -102,11 +101,4 @@ ul {
     list-style: none;
     text-align: center;
     letter-spacing: 2px;
-}
-
-
-@media (max-width: 400px) {
-    .main, .main-backgroundphoto {
-        width: 80vw;
-    }
 }
